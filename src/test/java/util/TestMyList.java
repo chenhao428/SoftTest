@@ -21,7 +21,7 @@ public class TestMyList {
         }
         else
         {
-            System.out.println("错误！");
+            System.out.println("Error！");
         }
 
     }
@@ -40,15 +40,15 @@ public class TestMyList {
         }
         else if(x != 5)
         {
-            System.out.println("x计算错误！");
+            System.out.println("x  Error！");
         }
         else if(y != 7)
         {
-            System.out.println("y计算错误！");
+            System.out.println("y  Error！");
         }
         else if(z != 9)
         {
-            System.out.println("z计算错误！");
+            System.out.println("z  Error！");
         }
 
     }
@@ -66,15 +66,15 @@ public class TestMyList {
         }
         else if(x != 4)
         {
-            System.out.println("x计算错误！");
+            System.out.println("x  Error！");
         }
         else if(y != 6)
         {
-            System.out.println("y计算错误！");
+            System.out.println("y  Error！");
         }
         else if(z != 8)
         {
-            System.out.println("z计算错误！");
+            System.out.println("z  Error！");
         }
     }
 }
