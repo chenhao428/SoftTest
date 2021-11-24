@@ -88,7 +88,7 @@ public class MyList implements Serializable {
     }
 
     public MyList add(MyList v) {
-        return new MyList(this.x + v.x, this.y + v.y, this.z - v.z);
+        return new MyList(this.x + v.x, this.y + v.y, this.z + v.z);
     }
     /* 注入错误 this.z + v.z, + -> - */
 
